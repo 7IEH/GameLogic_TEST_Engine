@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{99f659db-36c8-434f-b8ae-8837c1b838cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{02c58f60-a3e5-4e06-b76f-18b2aaf7ffcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Header">
+      <UniqueIdentifier>{6444a533-68a4-49dd-8d54-dda2fcac88a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Engine">
+      <UniqueIdentifier>{05f38791-b073-456f-a37e-0f879fad816f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Manager">
+      <UniqueIdentifier>{f2f01efd-d875-47a5-a035-660279a368ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object">
+      <UniqueIdentifier>{b5c3fff4-f4b4-454c-95fd-6097d2b448af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Level">
+      <UniqueIdentifier>{87eafb84-bff5-430b-b14a-d356d588eecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Player">
+      <UniqueIdentifier>{c34b07e0-a3e6-4415-a3c7-5dd9daadff70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\Projectile">
+      <UniqueIdentifier>{0f5259a1-5a8b-4b69-8c5c-6e90cc9ea063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{a5a8b2a4-aa63-49cd-8cd6-f500b476c205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\02. Object">
+      <UniqueIdentifier>{f57ab385-fe25-4253-9ae3-27a441e65084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component">
+      <UniqueIdentifier>{94368a4a-44be-40e0-b2f6-c1d899e3d2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\Animator">
+      <UniqueIdentifier>{c7968349-aa10-4919-af2c-8964ebb4e33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\Collider">
+      <UniqueIdentifier>{9272e008-2021-479c-8f56-7bde40b3a27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\Movement">
+      <UniqueIdentifier>{5ff946bc-5b56-405d-a347-3050c7b64137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\StateMachine">
+      <UniqueIdentifier>{d4ca07c5-24fe-4604-a82f-66333dfe1d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Component\Animator\Anim">
+      <UniqueIdentifier>{699b24f5-a1cb-40ce-80d8-f0056531e1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\01. Level">
+      <UniqueIdentifier>{0547386a-23dd-4e48-ad7c-449960dff499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\01. Level\01-02. LoadingLevel">
+      <UniqueIdentifier>{77a3a6a1-0464-4bd0-aade-300acc2afdae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\01. Level\01-01. StartLevel">
+      <UniqueIdentifier>{9d49169b-f303-43e8-a5ce-62f7a6b5113c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. GameLogic">
+      <UniqueIdentifier>{8a72cef5-730c-4652-8e2d-17d28eca5f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. GameLogic\MapGenerator">
+      <UniqueIdentifier>{155c70ee-ed93-44f9-bc15-e7f8f935941d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EHEngine.h">
+      <Filter>Game\02. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EHLevelMgr.h">
+      <Filter>Game\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EHTimeMgr.h">
+      <Filter>Game\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EHKeyMgr.h">
+      <Filter>Game\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EHLevel.h">
+      <Filter>Game\05. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EHObj.h">
+      <Filter>Game\04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EHPlayer.h">
+      <Filter>Game\04. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EHProjectile.h">
+      <Filter>Game\04. Object\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EHPathMgr.h">
+      <Filter>Game\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EHLayer.h">
+      <Filter>Game\05. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EHEntity.h" />
+    <ClInclude Include="EHAnimator.h">
+      <Filter>Game\06. Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="EHAnim.h">
+      <Filter>Game\06. Component\Animator\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="EHCollider.h">
+      <Filter>Game\06. Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="EHStateMachine.h">
+      <Filter>Game\06. Component\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="EHComponent.h">
+      <Filter>Game\06. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EHMovement.h">
+      <Filter>Game\06. Component\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="EHCamera.h">
+      <Filter>Game\03. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EHMapGenerator.h">
+      <Filter>Game\07. GameLogic\MapGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="EHStartLevel.h">
+      <Filter>Contents\01. Level\01-01. StartLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="EHLoadingLevel.h">
+      <Filter>Contents\01. Level\01-02. LoadingLevel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EHEngine.cpp">
+      <Filter>Game\02. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EHLevelMgr.cpp">
+      <Filter>Game\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EHTimeMgr.cpp">
+      <Filter>Game\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EHKeyMgr.cpp">
+      <Filter>Game\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EHLevel.cpp">
+      <Filter>Game\05. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EHObj.cpp">
+      <Filter>Game\04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="EHPlayer.cpp">
+      <Filter>Game\04. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EHProjectile.cpp">
+      <Filter>Game\04. Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Game\01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.cpp">
+      <Filter>Game\01. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="EHPathMgr.cpp">
+      <Filter>Game\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EHLayer.cpp">
+      <Filter>Game\05. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EHEntity.cpp" />
+    <ClCompile Include="EHAnimator.cpp">
+      <Filter>Game\06. Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="EHAnim.cpp">
+      <Filter>Game\06. Component\Animator\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="EHCollider.cpp">
+      <Filter>Game\06. Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="EHStateMachine.cpp">
+      <Filter>Game\06. Component\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="EHComponent.cpp">
+      <Filter>Game\06. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EHMovement.cpp">
+      <Filter>Game\06. Component\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="EHCamera.cpp">
+      <Filter>Game\03. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EHMapGenerator.cpp">
+      <Filter>Game\07. GameLogic\MapGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="EHStartLevel.cpp">
+      <Filter>Contents\01. Level\01-01. StartLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="EHLoadingLevel.cpp">
+      <Filter>Contents\01. Level\01-02. LoadingLevel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
