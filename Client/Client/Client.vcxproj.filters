@@ -68,8 +68,17 @@
     <Filter Include="Game\07. GameLogic">
       <UniqueIdentifier>{8a72cef5-730c-4652-8e2d-17d28eca5f2a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\07. GameLogic\MapGenerator">
+    <Filter Include="Game\07. GameLogic\BSP Thread">
+      <UniqueIdentifier>{e8732294-13b0-47ee-952e-2b2ce6fdfe28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. GameLogic\BSP Thread\MapGenerator">
       <UniqueIdentifier>{155c70ee-ed93-44f9-bc15-e7f8f935941d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. GameLogic\ThreadManager">
+      <UniqueIdentifier>{7cde3830-c4f2-4e3d-8faf-25410f455bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\07. GameLogic\ThreadTask">
+      <UniqueIdentifier>{dbaf3416-0b45-4ef0-9c29-d70329001e38}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -153,13 +162,19 @@
       <Filter>Game\03. Manager</Filter>
     </ClInclude>
     <ClInclude Include="EHMapGenerator.h">
-      <Filter>Game\07. GameLogic\MapGenerator</Filter>
+      <Filter>Game\07. GameLogic\BSP Thread\MapGenerator</Filter>
     </ClInclude>
     <ClInclude Include="EHStartLevel.h">
       <Filter>Contents\01. Level\01-01. StartLevel</Filter>
     </ClInclude>
     <ClInclude Include="EHLoadingLevel.h">
       <Filter>Contents\01. Level\01-02. LoadingLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadMgr.h">
+      <Filter>Game\07. GameLogic\ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadTask.h">
+      <Filter>Game\07. GameLogic\ThreadTask</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -241,13 +256,19 @@
       <Filter>Game\03. Manager</Filter>
     </ClCompile>
     <ClCompile Include="EHMapGenerator.cpp">
-      <Filter>Game\07. GameLogic\MapGenerator</Filter>
+      <Filter>Game\07. GameLogic\BSP Thread\MapGenerator</Filter>
     </ClCompile>
     <ClCompile Include="EHStartLevel.cpp">
       <Filter>Contents\01. Level\01-01. StartLevel</Filter>
     </ClCompile>
     <ClCompile Include="EHLoadingLevel.cpp">
       <Filter>Contents\01. Level\01-02. LoadingLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadMgr.cpp">
+      <Filter>Game\07. GameLogic\ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadTask.cpp">
+      <Filter>Game\07. GameLogic\ThreadTask</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

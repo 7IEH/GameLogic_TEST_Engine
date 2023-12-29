@@ -23,6 +23,7 @@ void LoadingLevel::init()
 
 void LoadingLevel::enter()
 {
+	// 대기중인 스레드 깨움
 	::SetEvent(test);
 }
 

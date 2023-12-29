@@ -32,6 +32,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     LoadStringW(hInstance, IDC_CLIENT, szWindowClass, 100);
     MyRegisterClass(hInstance);
 
+    // thread 초기화
     t1.resize(2);
     t1[0] = std::thread(MapGenerator::Start);
 

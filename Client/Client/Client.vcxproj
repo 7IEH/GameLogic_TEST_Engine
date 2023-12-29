@@ -149,6 +149,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadMgr.h" />
+    <ClInclude Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadTask.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="define.h" />
     <ClInclude Include="EHAnim.h" />
@@ -181,6 +183,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadMgr.cpp" />
+    <ClCompile Include="..\..\..\DirectX11\DirectX11\Game\Project\Engine\EHThreadTask.cpp" />
     <ClCompile Include="EHAnim.cpp" />
     <ClCompile Include="EHAnimator.cpp" />
     <ClCompile Include="EHCamera.cpp" />
